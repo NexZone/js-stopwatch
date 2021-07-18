@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Stopwatch</title>
+</head>
+<body>
+    <div class="stopwatch">
+        <p id="timer">00:00:00</p>
+    </div>
+    <div id="buttons" class="buttons">
+        <div class="buttons__top">
+            <button class="button-style" onclick="startTimer();">Start</button>
+            <button class="button-style" onclick="pauseTimer();">Pause</button>
+        </div>
+        <div class="buttons__reset">
+            <button class="button-style button-style--bottom" onclick="resetTimer();">Reset</button>
+        </div>
+    </div>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>

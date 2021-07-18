@@ -1,0 +1,2 @@
+# Javascript Stopwatch
+I created this project simply just to learn Javascript, the code is not perfect and there is probably better versions out there. Feel free to do whatever you want with this code.
